@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Webcam Presenter",
+  "description": "A easy way to show your webcam in floating window",
+  "version": "0.0.1",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
