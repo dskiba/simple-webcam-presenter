@@ -1,5 +1,6 @@
 export const VIDEO_ID = 'SWP_draggable-web-cam';
 export function createVideo(id: string, el: HTMLElement | null) {
+  console.log({ el })
   if(!el) return
   const video = document.createElement('video');
   video.setAttribute('playsinline', '');
@@ -24,6 +25,7 @@ export function createVideo(id: string, el: HTMLElement | null) {
   video.style.zIndex = '99999999';
   video.style.objectFit = 'cover';
   /* Stream it to video element */
+  console.log({ video })
   navigator.mediaDevices.getUserMedia(constraints).then(function success(stream) {
     video.srcObject = stream;
   });

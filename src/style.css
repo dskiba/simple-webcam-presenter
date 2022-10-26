@@ -22,7 +22,37 @@
 
 
 .wrapper {
-  min-width: 350px;
-  min-height: 350px;
-  @apply bg-gray-900
+  min-width: 300px;
+  min-height: 300px;
+  @apply bg-gray-900 flex flex-col p-3
+}
+
+.title {
+  @apply font-sans text-xl mb-3
+}
+
+.sub-title {
+  @apply font-sans text-lg mb-1
+}
+
+.credits {
+  @apply mt-auto w-full ml-auto text-right
+}
+
+.text, label, span {
+  @apply font-sans text-base mb-1 leading-8
+}
+
+label {
+  @apply mb-2
+}
+
+.btn-key {
+  @apply bg-zinc-600;
+  border-color: #9ca3af;
+  border-width: 1px;
+  border-radius: 2px;
+  height: 1.25rem;
+  margin-right: 0.25rem;
+  padding: 4px;
 }
