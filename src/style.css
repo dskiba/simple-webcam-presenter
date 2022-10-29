@@ -24,23 +24,18 @@
 .wrapper {
   min-width: 300px;
   min-height: 300px;
-  @apply bg-gray-900 flex flex-col p-3
+  @apply bg-gray-900 flex flex-col p-3 h-full rounded
 }
 
 .title {
   @apply font-sans text-xl mb-3
 }
 
-.sub-title {
-  @apply font-sans text-lg mb-1
-}
-
-.credits {
-  @apply mt-auto w-full ml-auto text-right
-}
-
 .text, label, span {
   @apply font-sans text-base mb-1 leading-8
+}
+.text-small {
+  font-size: 0.75rem;
 }
 
 label {
