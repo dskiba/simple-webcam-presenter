@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Simple Webcam Presenter",
-  "description": "A easy way to show your webcam in floating window",
+  "description": "A easy way to show your webcam in floating window while your present something. You can use Picture in Picture options in case to show cam across different tabs and apps",
   "version": "0.0.1",
   "action": {
     "default_popup": "index.html"
