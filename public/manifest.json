@@ -1,15 +1,15 @@
 {
   "manifest_version": 3,
   "name": "Simple Webcam Presenter",
-  "description": "A easy way to show your webcam in floating window while your present something. You can use Picture in Picture options in case to show cam across different tabs and apps",
+  "description": "An easy way to show your webcam in a floating window while you present something interesting. Make your presentations more alive :)",
   "version": "0.0.1",
   "action": {
     "default_popup": "index.html"
   },
   "icons": {
-    "16": "camera3.png",
-    "48": "camera3.png",
-    "128": "camera3.png"
+    "16": "cam_16.png",
+    "48": "cam_48.png",
+    "128": "cam_128.png"
   },
   "permissions": [
     "tabs",
